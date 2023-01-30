@@ -2,6 +2,8 @@
      Fonts 
 ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 
 /*------------------------ 
     Common Styles 
@@ -40,3 +42,51 @@ body{
     text-decoration: none;
     color: #131313;
  }
+ /*------------------------
+    Header Style End 
+ -----------------------*/
+
+ /*-----------------------------------
+         First Section Start 
+ ---------------------------------- */
+ .first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .first-section-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 862px;
+    height: 225px;
+    padding: 10px;
+ }
+ .first-section-details h3{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px;
+ }
+ .first-section-details p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;    
+    line-height: 25px;
+ }
+ .explore-button{
+    width: 180px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    background-color:  #FF900E;
+    border: none;
+    padding: 20px;
+    margin: 33px 0px 50px 0px;
+ }
+ /*-----------------------------------
+         First Section End
+ ---------------------------------- */
