@@ -1,8 +1,7 @@
 /*--------------
      Fonts 
 ------------- */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
 
 /*------------------------ 
@@ -25,7 +24,7 @@ body{
  }
  .header-title{
     font-size: 45px;
-    font-weight: 700px; 
+    font-weight: 700; 
     margin: 25px 0px;   
  }
  .nav-container{
@@ -85,8 +84,50 @@ body{
     background-color:  #FF900E;
     border: none;
     padding: 20px;
-    margin: 33px 0px 50px 0px;
+    margin: 32px 0px 50px 0px;
  }
  /*-----------------------------------
          First Section End
  ---------------------------------- */
+  /*-----------------------------------
+         Second Section start
+ ---------------------------------- */
+ .second-section{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+ }
+ .team{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 24px;
+    margin-left: 300px;
+    margin-top: 150px;
+ }
+ .second-section-info{
+    width: 537px;
+    height: 304px;
+ }
+ .second-section-info h3{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+ }
+ .second-section-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    margin: 0px 0px;
+ }
+ #quick{
+    color: #727272;
+ }
+ #our{
+    color: #131313;
+    font-weight: 700;
+ }
+ #features{
+    color: #FF900E;
+    font-weight: 700;
+ }
