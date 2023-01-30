@@ -1,1 +1,42 @@
-Head
+/*--------------
+     Fonts 
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+/*------------------------ 
+    Common Styles 
+ ------------------------*/
+body{
+    background-color: rgba(255, 144, 14, 0.1);
+    font-family:'Work Sans', sans-serif;
+    color: #131313;
+}
+
+
+ /*------------------------
+    Header Style Start 
+ -----------------------*/
+ .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .header-title{
+    font-size: 45px;
+    font-weight: 700px; 
+    margin: 25px 0px;   
+ }
+ .nav-container{
+    display: flex;
+    gap: 45px;
+ }
+ .nav li{
+    font-size: 18px;
+    font-weight: 500px;
+    list-style: none;
+
+ }
+ .nav a{
+    text-decoration: none;
+    color: #131313;
+ }
