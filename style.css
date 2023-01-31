@@ -121,7 +121,7 @@ body {
     height: 304px;
 }
 
-.second-section-info h3 {
+.second-section-info-header{
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -137,16 +137,23 @@ body {
 
 #quick {
     color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 #our {
     color: #131313;
+    font-size: 45px;
     font-weight: 700;
 }
 
 #features {
+    font-size: 45px;
     color: #FF900E;
     font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 /*-----------------------------------
@@ -285,9 +292,6 @@ body {
 /*-----------------------------------
          Sponsers Section Start
 ---------------------------------- */
-.sponsers{
-    /* margin-left: 689px; */
-}
 .sponsers-header{
     margin-left: 689px;
     width: 542px;
@@ -315,4 +319,26 @@ body {
 }
 /*-----------------------------------
          Sponsers Section End
+---------------------------------- */
+
+/*-----------------------------------
+         Footer Section Start
+---------------------------------- */
+.footer{
+    margin-left: 240px;
+    margin-right: 240px;
+    background-color: hsla(330, 100%, 90%, 0.993);
+    padding: 36px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color:#424242;
+}
+/*-----------------------------------
+         Footer Section End
 ---------------------------------- */
