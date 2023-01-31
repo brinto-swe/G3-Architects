@@ -95,6 +95,12 @@ body {
     padding: 20px;
     margin: 32px 0px 50px 0px;
 }
+.explore-button:hover{
+    background-color: rgb(245, 69, 25);
+    font-size: 24px;
+    width: 200px;
+    height: 70px;
+}
 
 /*-----------------------------------
          First Section End
@@ -222,6 +228,15 @@ body {
     margin-top: -100px;
     margin-left: -92px; 
 }
+.btn:hover{
+    color: white ;
+    background-color: rgb(245, 69, 25);
+    padding: 45px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -100px;
+    margin-left: -92px; 
+}
 #years{
     font-size: 65px;
     font-weight: 600;
@@ -341,4 +356,10 @@ body {
 }
 /*-----------------------------------
          Footer Section End
+---------------------------------- */
+
+
+
+/*-----------------------------------
+         Media Queries Start
 ---------------------------------- */
