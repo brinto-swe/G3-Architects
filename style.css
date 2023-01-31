@@ -43,7 +43,7 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #131313;
+    color: #424242;
 }
 
 /*------------------------
@@ -95,7 +95,8 @@ body {
     padding: 20px;
     margin: 32px 0px 50px 0px;
 }
-.explore-button:hover{
+
+.explore-button:hover {
     background-color: rgb(245, 69, 25);
     font-size: 24px;
     width: 200px;
@@ -127,7 +128,7 @@ body {
     height: 304px;
 }
 
-.second-section-info-header{
+.second-section-info-header {
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -169,19 +170,22 @@ body {
 /*-----------------------------------
          Third Section start
 ---------------------------------- */
- .third-section{
+.third-section {
     display: flex;
     margin-right: 240px;
     margin-left: 240px;
     margin-top: 145px;
     gap: 54px;
- }
- .box{
+}
+
+.box {
     width: 5px;
     height: 106px;
     background-color: #FF900E;
- }
- .header-details, h3{
+}
+
+.header-details,
+h3 {
     font-size: 45px;
     display: flex;
     gap: 21px;
@@ -189,60 +193,69 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
- .features-header p{
+
+.features-header p {
     color: #727272;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
     margin-bottom: 0px;
- }
- .features-list{
+}
+
+.features-list {
     display: grid;
     margin-top: 30px;
     gap: 20px;
- }
- .feature{
-    width: 586px;
+}
+
+.feature {
+    width: 514px;
     padding: 30px;
- }
- .feature h4{
+}
+
+.feature h4 {
     margin: 0px 0px;
     font-size: 20px;
     font-weight: 600;
     color: #131313;
- }
- .feature p{
+}
+
+.feature p {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 14px;
     color: #727272;
     line-height: 26px;
 }
-.btn{
-    color: white ;
+
+.btn {
+    color: white;
     background-color: #FF900E;
     padding: 45px;
     border: none;
     border-radius: 10px;
     margin-top: -100px;
-    margin-left: -92px; 
+    margin-left: -92px;
 }
-.btn:hover{
-    color: white ;
+
+.btn:hover {
+    color: white;
     background-color: rgb(245, 69, 25);
     padding: 45px;
     border: none;
     border-radius: 10px;
     margin-top: -100px;
-    margin-left: -92px; 
+    margin-left: -92px;
 }
-#years{
+
+#years {
     font-size: 65px;
     font-weight: 600;
     margin: 0px 0px;
 }
-#experience{
+
+#experience {
     font-size: 25px;
     font-weight: 500px;
     margin: 0px 0px;
@@ -255,16 +268,18 @@ body {
 /*-----------------------------------
          Some Facts Section Start
 ---------------------------------- */
- .some-facts{
+.some-facts {
     margin-left: 240px;
     margin-top: 115px;
- }
- .some-facts-header h3{
+}
+
+.some-facts-header h3 {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
- }
-.some-facts-header p{
+}
+
+.some-facts-header p {
     font-size: 14px;
     color: #727272;
     font-weight: 400;
@@ -273,33 +288,38 @@ body {
     width: 542px;
     line-height: 26px;
 }
-.some-facts-container{
+
+.some-facts-container {
     display: flex;
     gap: 125px;
     margin-left: 86px;
     margin-top: 146px;
 }
-.facts{
+
+.facts {
     border: 1px solid #FF900E;
     border-radius: 10px;
-    padding: 36px ;
+    padding: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.facts h5{
+
+.facts h5 {
     font-size: 45px;
     font-weight: 600;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.facts p{
+
+.facts p {
     color: #727272;
     font-size: 20px;
     font-weight: 600;
     margin: 0px 0px;
 }
+
 /*-----------------------------------
          Some Facts Section End
 ---------------------------------- */
@@ -307,31 +327,35 @@ body {
 /*-----------------------------------
          Sponsers Section Start
 ---------------------------------- */
-.sponsers-header{
+.sponsers-header {
     margin-left: 689px;
     width: 542px;
     text-align: center;
     margin-top: 180px;
 }
-.sponsers-header h4{
+
+.sponsers-header h4 {
     font-size: 45px;
     font-weight: 700;
     margin: 0px 0px;
 }
-.sponsers-header p{
+
+.sponsers-header p {
     margin-top: 24px;
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
 }
-.sponsers-image{
+
+.sponsers-image {
     margin-left: 240px;
     margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
     gap: 156px;
 }
+
 /*-----------------------------------
          Sponsers Section End
 ---------------------------------- */
@@ -339,7 +363,7 @@ body {
 /*-----------------------------------
          Footer Section Start
 ---------------------------------- */
-.footer{
+.footer {
     margin-left: 240px;
     margin-right: 240px;
     background-color: hsla(330, 100%, 90%, 0.993);
@@ -349,11 +373,13 @@ body {
     text-align: center;
     border-radius: 10px;
 }
-.footer p{
+
+.footer p {
     font-size: 20px;
     font-weight: 400;
-    color:#424242;
+    color: #424242;
 }
+
 /*-----------------------------------
          Footer Section End
 ---------------------------------- */
@@ -363,3 +389,170 @@ body {
 /*-----------------------------------
          Media Queries Start
 ---------------------------------- */
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+    
+    .header {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-title {
+        margin-left: 10px;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+    .first-section{
+        width: 90%;
+        margin-top: 100px;
+    }
+    .first-section-details{
+        width: 100%;
+        height: auto;
+    }
+    .banner img{
+        width: 110%;
+        height: 340px;
+        background-size: cover;
+    }
+
+    .second-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .team{
+        display: grid;
+        margin-left: 0px;
+        grid-template-columns: repeat(1,0fr);
+        margin-top: -50px;
+    }
+    .second-section-info{
+        width: 85%;
+        height: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-section-info p {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .box{
+        width: 0.5%;
+    }
+    .feature{
+        width: 140%;
+    }
+    .features-header{
+        width: 250%;
+    }
+    .features-header p{
+        width: 100%;
+    }
+    .third-section-image img{
+        width: 250%;
+        height: 344px;
+        background-size: contain;
+    }
+
+    .btn {
+        color: white;
+        background-color: #FF900E;
+        padding: 25px;
+        border: none;
+        border-radius: 10px;
+        margin-top: -50px;
+        margin-left: 12px;
+    }
+    
+    .btn:hover {
+        color: white;
+        background-color: rgb(245, 69, 25);
+        padding: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-top: -50px;
+        margin-left: 12px;
+    }
+    #years {
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0px 0px;
+    }
+    
+    #experience {
+        font-size: 15px;
+        font-weight: 500px;
+        margin: 0px 0px;
+    }
+    .some-facts {
+        margin-left: 5px;
+        margin-top: 115px;
+        width: 100%;
+    }
+    .some-facts-container {
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 10px;
+        margin-top: 36px;
+    }
+    .some-facts-header p {
+        width: 100%;
+    }
+    .facts {
+        border: 1px solid #FF900E;
+        border-radius: 10px;
+        padding: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    
+
+    .sponsers-header {
+        margin-left: 15px;
+        width: 90%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .sponsers-image {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 45px;
+    }
+    .footer {
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: hsla(330, 100%, 90%, 0.993);
+        padding: 16px;
+        height: 100px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        text-align: center;
+        border-radius: 10px;
+    }
